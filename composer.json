@@ -1,12 +1,12 @@
 {
-    "name": "PGWireless/php-helper",
-    "description": "Pinguo PHP helper lib",
+    "name": "PGWireless/php-exception",
+    "description": "Pinguo PHP exception lib",
     "type": "library",
     "license": "proprietary",
     "support": {
-        "issues": "https://github.com/PGWireless/php-helper/issues?state=open",
-        "wiki": "https://github.com/PGWireless/php-helper/wiki",
-        "source": "https://github.com/PGWireless/php-helper"
+        "issues": "https://github.com/PGWireless/php-exception/issues?state=open",
+        "wiki": "https://github.com/PGWireless/php-exception/wiki",
+        "source": "https://github.com/PGWireless/php-exception"
     },
     "require": {
         "php": ">=5.4.0",
