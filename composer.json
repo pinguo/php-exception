@@ -1,0 +1,19 @@
+{
+    "name": "PGWireless/php-helper",
+    "description": "Pinguo PHP helper lib",
+    "type": "library",
+    "license": "proprietary",
+    "support": {
+        "issues": "https://github.com/PGWireless/php-helper/issues?state=open",
+        "wiki": "https://github.com/PGWireless/php-helper/wiki",
+        "source": "https://github.com/PGWireless/php-helper"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "aws/aws-sdk-php": "*",
+        "nervetattoo/elasticsearch": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {"PG\\": ""}
+    }
+}
