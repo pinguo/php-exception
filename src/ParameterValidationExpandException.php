@@ -1,5 +1,5 @@
 <?php
-namespace PG\exception;
+namespace PG\Exception;
 
 /**
  * 参数验证扩展异常处理类

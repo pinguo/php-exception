@@ -1,5 +1,5 @@
 <?php
-namespace PG\exception;
+namespace PG\Exception;
 
 class Errno
 {
