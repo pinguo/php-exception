@@ -9,9 +9,11 @@
         "source": "https://github.com/PGWireless/php-exception"
     },
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=7.0"
     },
     "autoload": {
-        "psr-4": {"PG\\": ""}
+        "psr-4": {
+            "PG\\Exception\\": "src"
+        }
     }
 }
