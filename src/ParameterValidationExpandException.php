@@ -3,8 +3,9 @@ namespace PG\Exception;
 
 /**
  * 参数验证扩展异常处理类
- * @author lihai
  *
+ * @author camera360_server@camera360.com
+ * @copyright Chengdu pinguo Technology Co.,Ltd.
  */
 class ParameterValidationExpandException extends \Exception
 {
