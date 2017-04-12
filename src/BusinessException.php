@@ -1,6 +1,6 @@
 <?php
 /**
- * Rpc业务异常
+ * 业务异常
  *
  * @author camera360_server@camera360.com
  * @copyright Chengdu pinguo Technology Co.,Ltd.
@@ -9,14 +9,14 @@
 namespace PG\Exception;
 
 /**
- * Class RpcBusinessException
+ * Class BusinessException
  * @package PG\Exception
  */
-class RpcBusinessException extends \Exception
+class BusinessException extends \Exception
 {
 
     /**
-     * RpcBusinessException constructor.
+     * BusinessException constructor.
      *
      * @param string  $message 业务异常信息.
      * @param integer $code    业务异常状态码.
@@ -36,8 +36,8 @@ class RpcBusinessException extends \Exception
         $err = [
             'code' => $this->getCode(),
             'msg'  => $this->getMessage(),
-            'file'    => $this->getFile(),
-            'line'   => $this->getLine()
+            'file' => $this->getFile(),
+            'line' => $this->getLine()
         ];
         if ($type == 1) {
             return json_encode($err);
@@ -46,3 +46,4 @@ class RpcBusinessException extends \Exception
     }
 
 }
+
