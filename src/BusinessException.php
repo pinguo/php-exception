@@ -27,11 +27,11 @@ class BusinessException extends \Exception
     }
 
     /**
-     * @param integer $type 返回值格式(1json格式, 2数组).
+     * @param integer $type 返回值格式(1json格式, 0数组格式).
      *
      * @return array|string
      */
-    public function getErrorInfo($type = 2)
+    public function getErrorInfo($type = 0)
     {
         $err = [
             'code' => $this->getCode(),
