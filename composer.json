@@ -1,8 +1,8 @@
 {
     "name": "PGWireless/php-exception",
     "description": "Pinguo PHP exception lib",
+    "license": "BSD-3-Clause",
     "type": "library",
-    "license": "proprietary",
     "support": {
         "issues": "https://github.com/PGWireless/php-exception/issues?state=open",
         "wiki": "https://github.com/PGWireless/php-exception/wiki",
@@ -15,5 +15,12 @@
         "psr-4": {
             "PG\\Exception\\": "src"
         }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+    },
+    "config": {
+        "secure-http": false
     }
 }
