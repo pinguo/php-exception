@@ -1,11 +1,11 @@
 <?php
-
 /**
  * 无权限操作
  *
  * @author camera360_server@camera360.com
  * @copyright Chengdu pinguo Technology Co.,Ltd.
  */
+
 namespace PG\Exception;
 
 class PrivilegeException extends \ErrorException

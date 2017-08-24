@@ -44,6 +44,5 @@ class BusinessException extends \Exception
         }
         return $err;
     }
-
 }
 

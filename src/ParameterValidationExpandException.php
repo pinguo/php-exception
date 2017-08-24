@@ -1,12 +1,13 @@
 <?php
-namespace PG\Exception;
-
 /**
  * 参数验证扩展异常处理类
  *
  * @author camera360_server@camera360.com
  * @copyright Chengdu pinguo Technology Co.,Ltd.
  */
+
+namespace PG\Exception;
+
 class ParameterValidationExpandException extends \Exception
 {
     const ERROR_EMPTY_CODE = 400;
