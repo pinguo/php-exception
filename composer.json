@@ -1,12 +1,12 @@
 {
-    "name": "PGWireless/php-exception",
+    "name": "pinguo/php-exception",
     "description": "Pinguo PHP exception lib",
     "license": "BSD-3-Clause",
     "type": "library",
     "support": {
-        "issues": "https://github.com/PGWireless/php-exception/issues?state=open",
-        "wiki": "https://github.com/PGWireless/php-exception/wiki",
-        "source": "https://github.com/PGWireless/php-exception"
+        "issues": "https://github.com/pinguo/php-exception/issues?state=open",
+        "wiki": "https://github.com/pinguo/php-exception/wiki",
+        "source": "https://github.com/pinguo/php-exception"
     },
     "require": {
         "php": ">=7.0"

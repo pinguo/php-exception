@@ -1,4 +1,4 @@
-# PGWireless php-exception
+# pinguo php-exception
 
 品果微服务异常库，为php-msf微服务提供异常处理功能
 
