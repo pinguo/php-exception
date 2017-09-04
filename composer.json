@@ -1,7 +1,7 @@
 {
     "name": "pinguo/php-exception",
-    "description": "Pinguo PHP exception lib",
-    "license": "BSD-3-Clause",
+    "description": "Pinguo PHP exception",
+    "license": "GPL",
     "type": "library",
     "support": {
         "issues": "https://github.com/pinguo/php-exception/issues?state=open",
