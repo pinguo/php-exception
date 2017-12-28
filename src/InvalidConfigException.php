@@ -11,8 +11,4 @@ namespace PG\Exception;
  */
 class InvalidConfigException extends \Exception
 {
-    public function __construct($message = null, $code = 415, $previous = null)
-    {
-        parent::__construct($message, $code, $previous);
-    }
 }
